@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
     <link rel="stylesheet" href="css/style.css">
+    
   </head>
 
   <body class="login-body">
@@ -19,20 +20,24 @@
       </header>
       <section class="ask">
         <span>당신의 이름은 무엇인가요?</span>
-        <form>
-          <input type="text" class="text">
+        <form class="form-name">
+          <input type="text" class="input-name">
         </form>
+        <span class="hidden name"></span>
       </section>
       <section class="ask">
         <span>당신의 신분은 무엇인가요?</span>
-        <form>
-          <input type="text" class="text">
+        <form class="form-position">
+          <input type="text" class="input-position">
         </form>
+        <span class="hidden position"></span>
       </section>
     </main>
 
     <footer class="login-footer">
       <span>룰루 랄라</span>
     </footer>
+
+    <script src="javascript/login.js"></script>
   </body>
 </html>
